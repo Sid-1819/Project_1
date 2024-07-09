@@ -1,0 +1,49 @@
+@import url(/css/poppins.css);
+
+:root{
+    --c-brand: #EC8637;
+    --c-primary: #FBFAFF;
+    --c-icon: #9CA1C7;
+    --c-title: #6D6C7E;
+    --c-search-bar: #A3A3BD;
+    --c-name: #61606E;
+    --c-num: #A1A1C5;
+    --c-post: #33536A;
+    --c-bg:#f1f0f6;
+
+
+}
+
+
+.container{
+   padding-left: 0rem;
+   padding-right: 0rem;
+    background-color: var(--c-bg);
+
+}
+
+
+
+a{
+    font-size: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Poppins-Variable';
+
+}
+
+.white-container{
+    width: 100%;
+    background-color: var(--c-primary);
+    
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.d-flex{
+    width: 100%;
+    
+   
+    
+    border-radius: 1rem;
+}
