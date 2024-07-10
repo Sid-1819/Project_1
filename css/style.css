@@ -52,15 +52,28 @@ a{
     padding-right: 2rem;
 }
 
-.white-container row {
+.white-container  {
     width: 100%;
     justify-content: center;
-    background-color: #6D6C7E;
+   
     
    
     
     border-radius: 1rem;
 }
+
+.form-control {
+    border-color: var(--c-search-bar);
+    color: var(--c-search-bar);
+    position: relative;
+}
+
+.search-icon{
+    position: absolute;
+    overflow: hidden;
+    right: 0%;
+}
+
 
 .card{
     display: flex;
@@ -81,11 +94,13 @@ a{
 }
 
 .card-body{
+    max-width: 12rem;
     padding-left: 1rem;
     padding-top: 0%;
     padding-bottom: 0%;
     padding-right: 0%;
     margin-bottom: 1rem;
+    margin-right: 3.6rem;
 }
 
 .card-text{
@@ -96,4 +111,53 @@ a{
     color: var(--c-post);
     font-size: 0.75rem;
     margin-bottom: 0%;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.message-icon{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    margin-right: 1.5rem;
+}
+
+.phone-icon{
+    display: flex;
+    align-self: center;
+}
+
+
+
+
+
+
+
+.box{
+    max-width: 400px;
+    width: 100%;
+}
+
+.search-box{
+    position: relative;
+    height: 48px;
+    width: 100%;
+}
+
+.search-box input{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.search-box .icon{
+    position:absolute;
+    right: 0;
+    top: 0;
+    line-height: 50px;
+    padding-right: 10px;
+    height: 3rem;
+    width: 3rem;
 }
