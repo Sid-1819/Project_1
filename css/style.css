@@ -1,233 +1,200 @@
 @import url(/css/poppins.css);
 
-:root{
-    --c-brand: #EC8637;
-    --c-primary: #FBFAFF;
-    --c-icon: #9CA1C7;
-    --c-title: #6D6C7E;
-    --c-search-bar: #A3A3BD;
-    --c-name: #61606E;
-    --c-num: #A1A1C5;
-    --c-post: #33536A;
-    --c-bg:#f1f0f6;
-    --c-searchbg:#A4A6BF;
-
-    
-
-
+:root {
+  --c-brand: #ec8637;
+  --c-primary: #fbfaff;
+  --c-icon: #9ca1c7;
+  --c-title: #6d6c7e;
+  --c-search-bar: #a3a3bd;
+  --c-name: #61606e;
+  --c-num: #a1a1c5;
+  --c-post: #33536a;
+  --c-bg: #f1f0f6;
+  --c-searchbg: #a4a6bf;
 }
-*{
-    padding: 0%;
-    margin: 0%;
+* {
+  padding: 0%;
+  margin: 0%;
 }
 
-
-.container{
-   padding-left: 0rem;
-   padding-right: 0rem;
-    background-color: var(--c-bg);
-    margin:0rem;
-    padding: 0rem;
-    width: 100vw;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    overflow-x:auto ;
-
+.container {
+  padding-left: 0rem;
+  padding-right: 0rem;
+  background-color: var(--c-bg);
+  margin: 0rem;
+  padding: 0rem;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  overflow-x: auto;
 }
 
-
-
-a{
-    display: flex;
-    font-size: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    font-family:'Poppins-Variable';
-    justify-content: center;
-
+a {
+  display: flex;
+  font-size: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Poppins-Variable";
+  justify-content: center;
 }
 
-.white-container{
-    width: 100%;
-    background-color: var(--c-primary);
-    
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
-    padding-left: 2rem;
-    padding-top: 2rem;
-    padding-right: 2rem;
+.white-container {
+  width: 100%;
+  background-color: var(--c-primary);
+
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
 }
 
-.white-container  {
-    width: 100%;
-    justify-content: center;
-   
-    
-   
-    
-    border-radius: 1rem;
+.white-container {
+  width: 100%;
+  justify-content: center;
+
+  border-radius: 1rem;
 }
 
-
-
-.search-icon{
-    position: absolute;
-    overflow: hidden;
-    right: 0%;
+.search-icon {
+  position: absolute;
+  overflow: hidden;
+  right: 0%;
 }
 
-
-.card{
-    display: flex;
-    flex-direction: row;
-    border: 0;
-    background-color: var(--c-primary);
+.card {
+  display: flex;
+  flex-direction: row;
+  border: 0;
+  background-color: var(--c-primary);
 }
 
-.card-img-top{
-    max-width: 5rem;
-    max-height: 5rem;
-    padding: 0%;
-    margin: 0%;
+.card-img-top {
+  max-width: 5rem;
+  max-height: 5rem;
+  padding: 0%;
+  margin: 0%;
 }
-.card-title{
-    color: var(--c-name);
-    font-size: 1rem;
-    margin-bottom: 0.25rem;
-    font-size: 1rem;
-}
-
-.card-body{
-    max-width: 10rem;
-    padding-left: 1rem;
-    padding-top: 0%;
-    padding-bottom: 0%;
-    padding-right: 0%;
-    margin-bottom: 1rem;
-    margin-right: 1.2rem;
+.card-title {
+  color: var(--c-name);
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
 }
 
-.card-text{
-    color: var(--c-num);
-    font-size: 0.75rem;
-}
-.pos{
-    color: var(--c-post);
-    font-size: 0.75rem;
-    margin-bottom: 0%;
-}
-.icons{
-    display: flex;
-    flex-direction: row;
+.card-body {
+  max-width: 10rem;
+  padding-left: 1rem;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-right: 0%;
+  margin-bottom: 1rem;
+  margin-right: 1.2rem;
 }
 
-.message-icon{
-    display: flex;
-    align-self: center;
-    justify-self: center;
-    margin-right: 1.5rem;
+.card-text {
+  color: var(--c-num);
+  font-size: 0.75rem;
+}
+.pos {
+  color: var(--c-post);
+  font-size: 0.75rem;
+  margin-bottom: 0%;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
 }
 
-.phone-icon{
-    display: flex;
-    align-self: center;
+.message-icon {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  margin-right: 1.5rem;
 }
 
-
-
-
-
-
-
-.box{
-    max-width: 100vw;
-    width: 100%;
-   
+.phone-icon {
+  display: flex;
+  align-self: center;
 }
 
-.search-box{
-    position: relative;
-    height: 48px;
-    width: 100%;
-    border-style: none;
-    
+.box {
+  max-width: 100vw;
+  width: 100%;
 }
 
-.search-box input{
-    position:absolute;
-    height: 100%;
-    width: 100%;
-    padding-left: 1rem;
-    border-radius: 1rem;
-   border-style: none;
-   background-color: var(--c-bg);
+.search-box {
+  position: relative;
+  height: 48px;
+  width: 100%;
+  border-style: none;
 }
 
-.search-box .icon{
-    position:absolute;
-    right: 0;
-    top: 0;
-    line-height: 50px;
-    padding-right: 10px;
-    height: 3rem;
-    width: 3rem;
+.search-box input {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding-left: 1rem;
+  border-radius: 1rem;
+  border-style: none;
+  background-color: var(--c-bg);
 }
 
-
-.leave{
-    display: flex;
-    flex-direction: column;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    align-items: center;
-    justify-content: center;
-    white-space: nowrap;
-    flex-wrap: wrap-reverse;
-    flex-grow: 1;
-    
+.search-box .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 50px;
+  padding-right: 10px;
+  height: 3rem;
+  width: 3rem;
 }
 
-
-.nav-container{
-    max-height: 6rem;
-    width: 100%;
-position: fixed;
-bottom: 0;
-display: flex;
-flex-direction: row;
-background-color: rgb(255, 255, 255);
-padding-left: 5%;
-padding-right: 5%;
-border-top-left-radius: 24px;
-border-top-right-radius: 24px;
-overflow-x:auto ;
-
-
+.leave {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  flex-wrap: wrap-reverse;
+  flex-grow: 1;
 }
 
-.centre{
-  
-    height: 76px;
-    width: 76px;
-
-   
+.nav-container {
+  max-height: 6rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  padding-left: 5%;
+  padding-right: 5%;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  overflow-x: auto;
 }
-.button{
-    display: flex;
-    flex-direction: column;
+
+.centre {
+  height: 76px;
+  width: 76px;
+}
+.button {
+  display: flex;
+  flex-direction: column;
 }
 
-.text{
-    font-family: 'Poppins-Variable';
+.text {
+  font-family: "Poppins-Variable";
 }
 
-.leave-icon{
-    display: flex;
-    flex-direction: column;
+.leave-icon {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 576px) {
-
-    
 }
